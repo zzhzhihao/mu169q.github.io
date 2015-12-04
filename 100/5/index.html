@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>clearfix问题解决</title>	
+	<style type="text/css">
+	.clearfix:before,
+	.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+/*	------解决父级盒子高度为零--------*/
+
+
+	.warper {
+	background:red;
+	border:3px solid #142EF0;
+
+
+	}
+
+	.left{
+	width: 10%;
+	height: 50px;
+	background: #14F0DE;
+	float: left;
+
+	}
+	.right{
+		width: 90%;
+	height: 50px;
+	background: #F014C4;
+	float: right;
+	}
+	</style>
+
+
+</head>
+<body>
+	<div class="warper clearfix">
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+	
+</body>
+</html>
