@@ -1,0 +1,15 @@
+.box{
+  width:400px;
+  height:50px;
+  background:teal;
+  color:#fff;
+  padding:10px;
+}
+.box:hover{
+    width:400px;
+  height:50px;
+  background:teal;
+  color:#fff;
+  padding:10px;
+  box-sizing:border-box;/*一般在顶部通配即可,即把border,padding计算在width之中，如果属性变为content-box则border,padding不会计算在width之中*/
+}
