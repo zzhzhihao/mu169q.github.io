@@ -1,8 +1,8 @@
 .box {
       border: 0px solid #000000;
-      border-radius: 50%;
+      border-radius: 100px/50px;
       width:200px;
-      height:200px;
+      height:100px;
       background-color:#e7a61a
 
 
