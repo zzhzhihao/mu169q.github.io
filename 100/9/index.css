@@ -1,0 +1,10 @@
+.box {
+      border: 0px solid #000000;
+      border-radius: 50%/50%;/*第一个50%是宽度的一半；第二个50%是高度一半;这是制作椭圆效果；圆形只需要一个50%；同时代表宽高的一半*/
+      width:200px;
+      height:100px;
+      background-color:#e7a61a
+
+
+
+}
